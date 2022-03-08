@@ -1,0 +1,30 @@
+{
+  "name": "monorepo-clean-architecture",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "author": "Linda Vanessa Zapata Henao <lvzh90@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "homepage": "https://github.com/lvzh90/monorepo-clean-architecture#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvzh90/monorepo-clean-architecture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lvzh90/monorepo-clean-architecture/issues"
+  },
+  "scripts": {
+    "g:bootstrap": "yarn install -W && lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "packageManager": "yarn@3.2.0"
+}
