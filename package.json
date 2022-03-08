@@ -19,7 +19,11 @@
     "g:bootstrap": "yarn install -W && lerna bootstrap"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1"
   },
   "engines": {
     "node": "^14.18.0 || >=16.0.0",
